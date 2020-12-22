@@ -1,0 +1,34 @@
+body{
+	background-color:#C0C0C0;
+}
+h1{
+	color:#483D8B;
+}
+
+.blink {
+animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText
+{
+30%{ color:red;}
+40% { color:yellow;}
+40%{ color:blueviolet;}
+40%{ color:blue;}
+40%{ color:brown;}
+40%{ color:chartreuse;}
+40%{ color:cyan;}
+40%{ color:darkmagenta;}
+}
+
+h2{
+font-size:100px;
+text-align:center;
+padding-top:30px;
+}
+	
+.second h3{
+	text-align:center;
+	font-size:35px;
+	color:#800000;
+	opacity:0.5;
+}

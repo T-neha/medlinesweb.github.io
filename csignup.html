@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>signup</title>
+<link rel="stylesheet" type="text/css" href="customersignup.css"/>
+</head>
+<body>
+<h1>Sign up!!!</h1>
+<div class="container">
+<form action="csignup.php" method="POST">
+<label for="fname">First Name:</lable>&nbsp
+<input type="text" id="fname" name="firstname" placeholder="Enter your first name" pattern="[A-Za-z]{3,15}"required><br>
+<label for="lname" style="padding:8px">Last Name:</lable>
+<input type="text" id="lname" name="lastname" placeholder="Enter your last name" pattern="[A-Za-z]{3,15}"><br>
+<label for="Email" style="padding:24px">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter email" required title="userid only contain alphabet and number"><br>
+<label for="password" style="padding:8px">Password:</label>
+<input type="password" id="password" name="password" pattern="[A-Za-z0-9@#$]{8,15}" required><br/><br/>
+<label for="gender" style="padding:20px">Gender:</label>
+<label for="male">M</label>
+<input type ="radio" name="val" value="Male">
+<label for="female">F</label>
+<input type ="radio" name="val" value="Female"><br/>
+<label for="contact" style="padding:15px">Contact:</label>
+<input type="contact" id="contact" name="contact" pattern="[0-9]{10}" required><br>
+<label for="lname" style="padding:28px">City:</label>
+<input type="text" id="lname" name="city" placeholder="Enter your city name" required pattern="[A-Za-z]{3,15}"><br>
+<button type="submit">Submit</button>&nbsp&nbsp<button type="reset">Cancel</button>
+</form>
+</div>
+</body>
+</html>

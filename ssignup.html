@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>signup</title>
+<style>
+body
+{
+background-image:url('login.jpg');
+background-repeat:no-repeat,repeat;
+background-size:cover;
+}
+h1
+{
+text-align:center;
+font-size:80px;
+color:white;
+}
+input[type=text],input[type="password"],input[type="contact"]
+{
+width:50%;
+padding:10px;
+border-radius:4px;
+border:2px solid black;
+box-sizing:border-box;
+margin-top:6px;
+margin-bottom:6px;
+resize:vertical;
+}
+*{box-sizing:border-box;}
+button
+{
+background-color:white;
+color:black;
+padding:12px 60px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+.container
+{
+margin:auto;
+width:30%;
+border-radius:10px;
+padding:2px;
+}
+label
+{
+color:white;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<h1>Sign up!!!</h1>
+<div class="container">
+<form action="ssignup.php" method="post">
+<label for="shopname">Shop Name:</label>
+<input type="text" id="shopname" name="shopname" placeholder="Enter your shop name" pattern="[A-Za-z]{3,50}" required><br/>
+<label for="fname">First Name:</lable>
+<input type="text" id="fname" name="firstname" placeholder="Enter your first name" pattern="[A-Za-z]{3,50}" required><br/>
+<label for="lname">Last Name:</lable>
+<input type="text" id="lname" name="lastname" placeholder="Enter your last name" pattern="[A-Za-z]{3,50}"><br/>
+<label for="email" style="padding-right:38px">Email:</label>
+<input type="text" id="email" name="email" placeholder="Enter email" required title="userid only contain alphabet and number"><br>
+<label for="userid" style="padding-right:25px">Userid  :</label>
+<input type="text" id="userid" name="userid" placeholder="Enter userid" pattern="[A-Za-z0-9]{1,50}" required title="userid only contain alphabet and number">
+<br/><label for="password" style="padding-right:5px">Password:</label>
+<input type="password" id="password" name="password" pattern="[A-Za-z0-9@#$]{1,20}" required><br/>
+<label for="contact" style="padding-right:17px">Contact:</label>
+<input type="contact" id="contact" name="contact"  pattern="[0-9]{10}" required><br>
+<button type="submit">Submit</button><button type="reset">Cancel</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,391 @@
+body{
+	background: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+}
+.header h1{
+	padding: 30px;
+	text-align: center;
+	background: #F8F8FF;
+	color: #00B4CC;
+	font-size: 50px;
+	font-family:italic;
+	}
+.header h1:hover{
+  background-color:#ADD8E6;
+}
+
+.image img{
+	width:10%;
+	height:15%;
+	border-radius:10px;
+	position:absolute;
+	left:50px;
+}
+
+.caption{
+	position:absolute;
+	left:240px;
+	
+}
+.caption h5:hover{
+	 background-color:#DB7093;
+}
+
+.caption h5{
+	text-decoration:underline;
+	font-size:40px;
+	color:#8B008B;
+	font-family:italic;
+	position:absolute;
+	bottom:10px;
+}
+.caption h6{
+	font-size:20px;
+	color:#191970;
+	font-family:italic;
+	
+}
+.caption h4{
+	font-size:20px;
+	color:#191970;
+	font-family:italic;
+	position:absolute;
+	left:7px;
+	top:70px;
+}
+.caption h4:hover{
+	background-color:#E9967A;
+}
+.caption h6:hover{
+	background-color:#F5DEB3;
+}
+
+.caption p{
+	font-size:20px;
+	color:#191970;
+	font-family:italic;
+	font-weight:bold;
+	position:absolute;
+	bottom:5px;
+}
+
+.caption p:hover{
+	background-color:#F5DEB3;
+}
+
+.rightcaption{
+	position:absolute;
+	left:1200px;
+	
+	
+}
+.rightcaption h1:hover{
+	background-color:#C0C0C0;
+}
+.rightcaption h2:hover{
+	background-color:#F5DEB3;
+}
+.rightcaption h3:hover{
+	background-color:#FFFACD;
+}
+.rightcaption h1{
+	font-size:19px;
+	color:#191970;
+	font-family:italic;
+}
+.rightcaption h2{
+	font-size:19px;
+	color:#191970;
+	font-family:italic;
+}
+.rightcaption h3{
+	font-size:19px;
+	color:#191970;
+	font-family:italic;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row{
+	position:absolute;
+	top:350px;
+	left:80px;
+	box-sizing:border-box;
+	width:1000px;
+	height:100px;
+	padding:30px;
+	}
+.row h3{
+	font-family:italic;
+	text-decoration:underline;
+	color:#2F4F4F;
+	
+}
+.row p{
+	font-size:17px;
+	font-family:italic;
+	color:#191970;
+	
+}
+/* Float four columns side by side */
+.column {
+  float:right;
+  width: 25%;
+  padding: 0 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card10 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card11{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:166px;
+  width:193px;
+  top:30px;
+  text-align: center;
+  }
+.card12 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:440px;
+  width:193px;
+  top:30px;
+  text-align: center;
+  }
+  
+
+  
+  
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:990px;
+  width:193px;
+  top:30px;
+  text-align: center;
+  }
+
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:166px;
+  width:193px;
+  top:250px;
+  text-align: center;
+  }
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:440px;
+  width:193px;
+  top:250px;
+  text-align: center;
+  }
+
+.card4{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:715px;
+  width:193px;
+  top:250px;
+  text-align: center;
+  }
+
+.card5{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  left:990px;
+  width:193px;
+  top:250px;
+  text-align: center;
+  }
+
+
+.card6{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  top:470px;
+  width:193px;
+  left:166px;
+  text-align: center;
+  }
+ 
+ .card7{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  top:470px;
+  width:193px;
+  left:440px;
+  text-align: center;
+  }
+  
+  .card8 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  top:470px;
+  width:193px;
+  left:715px;
+  text-align: center;
+  }
+  
+  .card9{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  position:absolute;
+  top:470px;
+  width:193px;
+  left:990px;
+  text-align: center;
+  }
+  
+  
+  .card12:hover{
+	 background-color:#B0C4DE;
+ } 
+  .card11:hover{
+	 background-color:#B0C4DE;
+ } 
+  .card10:hover{
+	 background-color:#B0C4DE;
+ } 
+  .card9:hover{
+  background-color: #B0C4DE;
+  }
+  
+  .card8:hover{
+	  background-color: #B0C4DE; 
+  } 
+  .card7:hover{
+	    background-color: #B0C4DE; 
+  }
+  
+  .card6:hover{
+	  background-color: #B0C4DE; 
+	  }
+	  
+ .card5:hover{ 
+	background-color: #B0C4DE; 
+ }
+  .card4:hover{ 
+	background-color: #B0C4DE;
+  }
+  
+ .card3:hover{
+   background-color: #B0C4DE;
+  }
+  
+  .card2:hover{
+	  background-color: #B0C4DE; 
+  }
+  
+ .card1:hover{  
+	background-color: #B0C4DE;
+  }
+  
+  
+.footer {
+   position: absolute;
+   left: 0;
+   top: 1050px;
+   width: 100%;
+   background-color:#777;
+   color: white;
+   text-align: center;
+   
+}
+   
+ .footer{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+
+.footer:hover{
+	background-color:#FAEBD7;
+}
+  
+  
+  
+  
+ 
