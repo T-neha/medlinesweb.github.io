@@ -1,7 +1,9 @@
 # medlinesweb.github.io
 An E-commerce website where buyer and seller directly interact in the same user interface.
-Introduction
 
+Project URl  : https://t-neha.github.io/medlinesweb.github.io/
+
+Introduction:
 The goal of this project is to develop an E-commerce website that allows buyers and sellers to directly interact with each other within the same user interface. This platform will provide a seamless experience for both buyers and sellers, eliminating the need for intermediaries and facilitating efficient communication and transactions. The website will be developed using HTML5, CSS3, javascript, and Bootstrap to ensure a responsive and visually appealing design.
 
 Technologies Used:
